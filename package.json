@@ -1,0 +1,50 @@
+{
+  "name": "@thewhodidthis/reset.css",
+  "version": "0.0.1",
+  "description": "Just another reset.css",
+  "keywords": [
+    "css"
+  ],
+  "homepage": "https://github.com/thewhodidthis/reset.css#readme",
+  "main": "index.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thewhodidthis/reset.css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thewhodidthis/reset.css/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "clear": "npm run clear:dist && npm run clear:logs",
+    "clear:dist": "rm -rf dist/",
+    "clear:logs": "rm -rf *.log",
+    "prelint": "npm run clear:logs",
+    "lint": "csslint index.css --format=compact 2>&1 | sed '/^s*$/d' | tee -a lint-css.log",
+    "postlint": "find lint-css.log -size 0 -print0 | xargs -0 rm",
+    "start": "npm run build",
+    "prebuild": "mkdir -p dist",
+    "build": "postcss -c postcss.json index.css -o dist/reset.css",
+    "build:min": "cleancss --skip-aggressive-merging --skip-restructuring dist/reset.css -o dist/reset.min.css",
+    "postbuild": "npm run build:min",
+    "preversion": "npm run clear:logs"
+  },
+  "engines": {
+    "node": ">=4.2.4",
+    "npm": ">=3.5.3"
+  },
+  "devDependencies": {
+    "csslint": "latest",
+    "cssnano": "latest",
+    "postcss": "latest",
+    "postcss-cli": "latest",
+    "postcss-url": "latest",
+    "postcss-import": "latest",
+    "postcss-cssnext": "latest",
+    "postcss-reporter": "latest",
+    "postcss-browser-reporter": "latest",
+    "clean-css": "latest"
+  },
+  "author": "sChzs BkgNns <sotirios.bakagiannis@gmail.com> (https://www.thewhodidthis.com)",
+  "license": "Unlicense"
+}
