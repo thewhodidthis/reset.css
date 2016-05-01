@@ -71,13 +71,3 @@ figure {
   display: block;
   box-sizing: border-box;
 }
-
-@media screen and (min-height: 500px) and (min-width: 1024px) {
-  noscript {
-    right: 0;
-    left: auto;
-    transform-origin: 100% 0;
-    transform: rotate(90deg) translate(100%, 0);
-  }
-}
-
