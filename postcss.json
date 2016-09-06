@@ -4,7 +4,6 @@
     "postcss-url",
     "postcss-cssnext",
     "postcss-browser-reporter",
-    "postcss-reporter",
-    "cssnano"
+    "postcss-reporter"
   ]
 }
