@@ -3,8 +3,8 @@
 
 ### Usage
 
-Npm ready 
-```
+Install using npm
+```sh
 # Install, add to package.json
 npm install --save thewhodidthis/reset.css
 ```
