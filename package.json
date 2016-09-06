@@ -1,12 +1,12 @@
 {
   "name": "@thewhodidthis/reset.css",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Just another reset.css",
   "keywords": [
     "css"
   ],
-  "homepage": "https://github.com/thewhodidthis/reset.css#readme",
   "main": "index.css",
+  "homepage": "https://github.com/thewhodidthis/reset.css#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thewhodidthis/reset.css.git"
@@ -25,7 +25,7 @@
     "start": "npm run build",
     "prebuild": "mkdir -p dist",
     "build": "postcss -c postcss.json index.css -o dist/reset.css",
-    "build:min": "cleancss --skip-aggressive-merging --skip-restructuring dist/reset.css -o dist/reset.min.css",
+    "build:min": "postcss --use cssnano dist/reset.css -o dist/reset.min.css",
     "postbuild": "npm run build:min",
     "preversion": "npm run clear:logs"
   },
@@ -42,8 +42,7 @@
     "postcss-import": "latest",
     "postcss-cssnext": "latest",
     "postcss-reporter": "latest",
-    "postcss-browser-reporter": "latest",
-    "clean-css": "latest"
+    "postcss-browser-reporter": "latest"
   },
   "author": "sChzs BkgNns <sotirios.bakagiannis@gmail.com> (https://www.thewhodidthis.com)",
   "license": "Unlicense"
