@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Just another reset.css",
   "keywords": [
-    "css"
+    "css",
+    "reset"
   ],
   "main": "index.css",
   "homepage": "https://github.com/thewhodidthis/reset.css#readme",
@@ -19,9 +20,7 @@
     "clear": "npm run clear:dist && npm run clear:logs",
     "clear:dist": "rm -rf dist/",
     "clear:logs": "rm -rf *.log",
-    "prelint": "npm run clear:logs",
-    "lint": "csslint index.css --format=compact 2>&1 | sed '/^s*$/d' | tee -a lint-css.log",
-    "postlint": "find lint-css.log -size 0 -print0 | xargs -0 rm",
+    "lint": "csslint index.css --format=compact 2>&1; exit 0",
     "start": "npm run build",
     "prebuild": "mkdir -p dist",
     "build": "postcss -c postcss.json index.css -o dist/reset.css",
