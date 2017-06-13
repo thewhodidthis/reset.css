@@ -2,14 +2,12 @@
 > Just enough rules to cover wide enough a variety of cases
 
 ### Usage
-
-Install using npm
+Install from github
 ```sh
-# Install, add to package.json
-npm install --save thewhodidthis/reset.css
+npm install thewhodidthis/reset.css
 ```
 
-Include using postcss-import
+Expand on eg. using [postcss-import](https://github.com/postcss/postcss-import)
 ```css
 /* main.css */
 @import('@thewhodidthis/reset.css');
