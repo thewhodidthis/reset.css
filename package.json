@@ -16,32 +16,18 @@
     "url": "https://github.com/thewhodidthis/reset.css/issues"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\"",
-    "clear": "npm run clear:dist && npm run clear:logs",
-    "clear:dist": "rm -rf dist/",
-    "clear:logs": "rm -rf *.log",
-    "lint": "csslint index.css --format=compact; exit 0",
-    "start": "npm run build",
-    "prebuild": "mkdir -p dist",
-    "build": "postcss -c postcss.json index.css -o dist/reset.css",
-    "build:min": "postcss --use cssnano dist/reset.css -o dist/reset.min.css",
-    "postbuild": "npm run build:min",
-    "preversion": "npm run clear:logs"
+    "test": "stylelint index.css"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard"
   },
   "engines": {
-    "node": ">=4.2.4",
-    "npm": ">=3.5.3"
+    "node": ">=6.11.0",
+    "npm": ">=3.10.10"
   },
   "devDependencies": {
-    "csslint": "latest",
-    "cssnano": "latest",
-    "postcss": "latest",
-    "postcss-cli": "latest",
-    "postcss-url": "latest",
-    "postcss-import": "latest",
-    "postcss-cssnext": "latest",
-    "postcss-reporter": "latest",
-    "postcss-browser-reporter": "latest"
+    "stylelint": "latest",
+    "stylelint-config-standard": "latest"
   },
   "author": "sChzs BkgNns <sotirios.bakagiannis@gmail.com> (https://www.thewhodidthis.com)",
   "license": "Unlicense"
