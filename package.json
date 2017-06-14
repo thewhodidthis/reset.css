@@ -1,7 +1,7 @@
 {
   "name": "@thewhodidthis/reset.css",
   "version": "0.0.3",
-  "description": "Just another reset.css",
+  "description": "Just another CSS reset",
   "keywords": [
     "css",
     "reset"
@@ -25,6 +25,7 @@
     "node": ">=6.11.0",
     "npm": ">=3.10.10"
   },
+  "dependencies": {},
   "devDependencies": {
     "stylelint": "latest",
     "stylelint-config-standard": "latest"
