@@ -8,8 +8,8 @@ html {
   min-height: 100%;
   overflow-y: scroll;
   -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  text-size-adjust: 100%;
 }
 
 body {
@@ -18,26 +18,8 @@ body {
   font: 16px/1.325 'Times New Roman', serif;
 }
 
-noscript {
-  top: 0;
-  left: 0;
-  z-index: 1;
-  color: #999;
-  padding: 0 11px;
-  font-size: 11px;
-  line-height: 33px;
-  position: absolute;
-  font-family: arial, serif;
-  text-transform: lowercase;
-}
-
 a {
   text-decoration: underline;
-  background-color: transparent;
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
-  -webkit-touch-callout: none;
-  -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
@@ -63,7 +45,6 @@ ul,
 ol,
 dl,
 dd,
-figure,
 blockquote {
   margin: 0;
 }
@@ -77,5 +58,5 @@ ol {
 figure {
   margin: auto;
   display: block;
-  box-sizing: border-box;
 }
+
