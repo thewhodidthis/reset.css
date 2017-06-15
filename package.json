@@ -16,8 +16,8 @@
     "url": "https://github.com/thewhodidthis/reset.css/issues"
   },
   "scripts": {
-    "test": "open test/index.html",
-    "lint": "stylelint index.css"
+    "test": "stylelint index.css",
+    "posttest": "open test/index.html"
   },
   "stylelint": {
     "extends": "stylelint-config-standard"
