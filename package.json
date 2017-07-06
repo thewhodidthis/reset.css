@@ -17,7 +17,7 @@
   },
   "scripts": {
     "test": "stylelint index.css",
-    "posttest": "open test/index.html"
+    "posttest": "open index.html"
   },
   "stylelint": {
     "extends": "stylelint-config-standard"
