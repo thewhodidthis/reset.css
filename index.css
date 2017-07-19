@@ -12,9 +12,8 @@ html {
 }
 
 body {
-  margin: 0;
-  word-wrap: break-word;
   font: 16px/1.325 'Times New Roman', serif;
+  word-wrap: break-word;
 }
 
 a {
@@ -29,33 +28,37 @@ a:focus {
   outline: 0;
 }
 
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+dd,
+blockquote,
+p {
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  margin: 0;
   font-size: inherit;
-}
-
-p,
-ul,
-ol,
-dl,
-dd,
-blockquote {
-  margin: 0;
 }
 
 ul,
 ol {
   padding: 0;
-  list-style: none;
 }
 
 figure {
   margin: auto;
-  display: block;
 }
 
