@@ -38,9 +38,10 @@ h6,
 ul,
 ol,
 dl,
+figure,
 blockquote,
 p {
-  margin: 0;
+  margin: auto;
 }
 
 h1,
@@ -52,16 +53,11 @@ h6 {
   font-size: inherit;
 }
 
-dd {
-  margin-left: 2rem;
-}
-
 ul,
 ol {
   padding-left: 2rem;
 }
 
-figure {
-  margin: auto;
+dd {
+  margin-left: 2rem;
 }
-
