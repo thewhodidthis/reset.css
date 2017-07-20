@@ -38,6 +38,7 @@ h6,
 ul,
 ol,
 dl,
+dd,
 figure,
 blockquote,
 p {
@@ -55,9 +56,6 @@ h6 {
 
 ul,
 ol {
-  padding-left: 2rem;
-}
-
-dd {
-  margin-left: 2rem;
+  list-style: none;
+  padding: 0;
 }
