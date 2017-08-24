@@ -4,6 +4,7 @@ body {
 }
 
 html {
+  font: 16px/1.3125 'Times New Roman', serif;
   min-height: 100%;
   overflow-y: scroll;
   -webkit-text-size-adjust: 100%;
@@ -12,7 +13,6 @@ html {
 }
 
 body {
-  font: 16px/1.3125 'Times New Roman', serif;
   word-wrap: break-word;
 }
 
