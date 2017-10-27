@@ -1,4 +1,3 @@
-## reset.css
 > Just enough rules to cover wide enough a variety of cases
 
 ### Usage
