@@ -2,30 +2,31 @@
   "name": "@thewhodidthis/reset.css",
   "version": "0.0.12",
   "description": "Just another CSS reset",
-  "main": "index.css",
   "homepage": "https://github.com/thewhodidthis/reset.css#readme",
+  "bugs": {
+    "url": "https://github.com/thewhodidthis/reset.css/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thewhodidthis/reset.css.git"
   },
-  "bugs": {
-    "url": "https://github.com/thewhodidthis/reset.css/issues"
-  },
+  "license": "Unlicense",
+  "author": "Sotiri Bakagiannis <sotirios.bakagiannis@gmail.com> (http://thewhodidthis.com)",
+  "main": "index.css",
   "scripts": {
-    "test": "stylelint index.css",
-    "start": "open index.html"
+    "start": "open index.html",
+    "test": "stylelint index.css"
   },
   "stylelint": {
     "extends": "stylelint-config-standard"
   },
+  "dependencies": {},
+  "devDependencies": {
+    "stylelint": "^13.2.0",
+    "stylelint-config-standard": "^20.0.0"
+  },
   "engines": {
     "node": ">=4.2.4",
     "npm": ">=3.5.3"
-  },
-  "devDependencies": {
-    "stylelint": "^13.0.0",
-    "stylelint-config-standard": "^19.0.0"
-  },
-  "author": "sChzs BkgNns <sotirios.bakagiannis@gmail.com> (https://www.thewhodidthis.com)",
-  "license": "Unlicense"
+  }
 }
