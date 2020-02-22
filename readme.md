@@ -12,6 +12,6 @@ Expand on eg. using [postcss-import](https://github.com/postcss/postcss-import)
 @import('@thewhodidthis/reset.css');
 
 figure {
-    margin: 0;
+  margin: 0;
 }
 ```
