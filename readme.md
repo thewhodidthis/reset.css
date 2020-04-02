@@ -7,7 +7,7 @@ npm install @thewhodidthis/reset.css
 Consume using [postcss-import](https://github.com/postcss/postcss-import) for example,
 
 ```css
-/* Need a plugin or some kind of symbolic link to handle path resolution here */
+/* Need a plugin or symlink to handle path resolution here */
 @import('@thewhodidthis/reset.css');
 
 ul, 
