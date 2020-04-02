@@ -2,6 +2,10 @@
   "name": "@thewhodidthis/reset.css",
   "version": "0.0.14",
   "description": "Just another CSS reset",
+  "keywords": [
+    "css",
+    "reset"
+  ],
   "homepage": "https://github.com/thewhodidthis/reset.css#readme",
   "bugs": {
     "url": "https://github.com/thewhodidthis/reset.css/issues"
