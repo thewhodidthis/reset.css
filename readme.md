@@ -1,17 +1,17 @@
-> Just enough rules to cover wide enough a variety of cases
+Just enough rules to cover wide enough a variety of cases opting for `auto` and `inherit` values where possible,
 
-### Usage
 ```sh
-# Fetch latest from github
-npm i thewhodidthis/reset.css
+npm install @thewhodidthis/reset.css
 ```
 
-Expand on eg. using [postcss-import](https://github.com/postcss/postcss-import)
+Consume using [postcss-import](https://github.com/postcss/postcss-import) for example,
+
 ```css
-/* main.css */
+/* Need a plugin or some kind of symbolic link to handle path resolution here */
 @import('@thewhodidthis/reset.css');
 
-figure {
-  margin: 0;
+ul, 
+ol {
+  padding-left: 1rem;
 }
 ```
