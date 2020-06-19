@@ -4,9 +4,10 @@ Just enough rules to cover wide enough a variety of cases opting for `auto` and 
 
 ## setupe
 
-Fetch the latest version from the _npm_ registry:
+Download the [latest version](https://www.npmjs.com/package/@thewhodidthis/reset.css) from the _npm_ registry:
 
 ```sh
+# Add to 'package.json'
 npm install @thewhodidthis/reset.css
 ```
 
@@ -23,3 +24,8 @@ ol {
   padding-left: 1rem;
 }
 ```
+
+## see also
+
+- [Reset reasoning](http://meyerweb.com/eric/thoughts/2007/04/18/reset-reasoning/)
+- [Normalize.css](https://necolas.github.io/normalize.css/)
