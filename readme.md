@@ -27,5 +27,5 @@ ol {
 
 ## see also
 
-- [Reset reasoning](http://meyerweb.com/eric/thoughts/2007/04/18/reset-reasoning/)
+- [Eric Meyer's reset reasoning](http://meyerweb.com/eric/thoughts/2007/04/18/reset-reasoning/)
 - [Normalize.css](https://necolas.github.io/normalize.css/)
