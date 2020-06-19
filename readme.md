@@ -2,7 +2,7 @@
 
 Just enough rules to cover wide enough a variety of cases opting for `auto` and `inherit` values where possible.
 
-## setupe
+## setup
 
 Download the [latest version](https://www.npmjs.com/package/@thewhodidthis/reset.css) from the _npm_ registry:
 
