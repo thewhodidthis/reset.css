@@ -16,18 +16,18 @@
   },
   "license": "Unlicense",
   "author": "Sotiri Bakagiannis <sotirios.bakagiannis@gmail.com> (http://thewhodidthis.com)",
-  "main": "index.css",
+  "exports": "./reset.css",
+  "main": "./reset.css",
   "scripts": {
     "start": "open index.html",
-    "test": "stylelint index.css"
+    "test": "stylelint reset.css"
   },
   "stylelint": {
     "extends": "stylelint-config-standard"
   },
-  "dependencies": {},
   "devDependencies": {
     "stylelint": "^13.6.1",
-    "stylelint-config-standard": "^20.0.0"
+    "stylelint-config-standard": "^22.0.0"
   },
   "engines": {
     "node": ">=4.2.4",
