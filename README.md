@@ -4,10 +4,10 @@ Just enough rules to cover wide enough a variety of cases opting for `auto` and 
 
 ## setup
 
-Download the [latest version](https://www.npmjs.com/package/@thewhodidthis/reset.css) from the _npm_ registry:
+Download from the _npm_ registry:
 
 ```sh
-# Add to 'package.json'
+# Add to package.json
 npm install @thewhodidthis/reset.css
 ```
 
@@ -19,7 +19,7 @@ May be easily consumed using [postcss-import](https://github.com/postcss/postcss
 /* Need a plugin or symlink to handle path resolution here */
 @import('@thewhodidthis/reset.css');
 
-ul, 
+ul,
 ol {
   padding-left: 1rem;
 }
