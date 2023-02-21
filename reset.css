@@ -1,0 +1,56 @@
+html,
+body {
+  height: 100%;
+}
+html {
+  font: 16px/1.3125 "Times New Roman", serif;
+  min-height: 100%;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+body {
+  word-wrap: break-word;
+}
+a {
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  outline: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+dd,
+figure,
+blockquote,
+p {
+  margin: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+}
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+small {
+  font-size: 0.8125rem;
+}
