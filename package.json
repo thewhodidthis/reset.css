@@ -1,20 +1,21 @@
 {
   "name": "@thewhodidthis/reset.css",
   "version": "2.0.0",
+  "private": true,
   "description": "Just another CSS reset",
-  "keywords": [
-    "css",
-    "reset"
-  ],
   "homepage": "https://github.com/thewhodidthis/reset.css#readme",
   "bugs": "https://github.com/thewhodidthis/reset.css/issues",
   "repository": "github:thewhodidthis/reset.css",
   "license": "Unlicense",
   "author": "Thepersonwhodidthis <thewhodidthis@fastmail.com> (http://thewhodidthis.com/)",
-  "exports": "./reset.css",
-  "main": "./reset.css",
   "engines": {
     "node": ">=4.2.4",
     "npm": ">=3.5.3"
-  }
+  },
+  "browser": "./reset.css",
+  "exports": "./reset.css",
+  "keywords": [
+    "css",
+    "reset"
+  ]
 }
