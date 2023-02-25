@@ -13,9 +13,5 @@
     "npm": ">=3.5.3"
   },
   "browser": "./reset.css",
-  "exports": "./reset.css",
-  "keywords": [
-    "css",
-    "reset"
-  ]
+  "exports": "./reset.css"
 }
